@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(21, 0, 78);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: rgb(228, 228, 228);
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+
+.btn {
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
